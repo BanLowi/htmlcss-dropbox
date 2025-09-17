@@ -39,7 +39,7 @@ body {
 
     .container {
         background-color: red;
-        
+
     }
 
     .row {
@@ -76,7 +76,7 @@ body {
     min-width: 1200px;
 }
 
-.row{
+.row {
     display: flex;
     margin: -0.1rem;
 }
@@ -133,7 +133,7 @@ header {
 .jumbo {
     background-color: var(--db-jumbo-bg);
     margin: 0;
-    
+
     h1 {
         padding-top: 4rem;
         font-size: 6rem;
@@ -141,7 +141,7 @@ header {
         width: 1200px;
     }
 
-    section {   
+    section {
         width: 1200px;
 
         p {
@@ -176,7 +176,7 @@ header {
             top: 0;
         }
     }
-    
+
 }
 
 /* plans */
@@ -189,15 +189,14 @@ header {
         .top {
             padding: 0.2rem 5rem;
 
-            p {
-            }
+            p {}
         }
 
         .bottom {
-            
+
             padding: 2rem 1rem;
 
-            .pricing{
+            .pricing {
                 line-height: 2rem;
                 margin-bottom: 2rem;
             }
