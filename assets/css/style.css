@@ -98,13 +98,19 @@ header {
 
     section {
 
-
         h1 {
             font-size: 3rem;
         }
 
         p {
             font-size: 0.9rem;
+            text-align: left;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0
+            }
         }
 
         button {
