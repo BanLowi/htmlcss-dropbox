@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    min-width: 1200px;
+}
+
+/* debug  */
+
+.debug {
+
+    * {
+        border: 1px dashed black;
+    }
+}
+
+/* container */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
