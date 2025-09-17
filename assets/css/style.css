@@ -102,15 +102,15 @@ header {
 .jumbo {
     background-color: var(--db-jumbo-bg);
     
-
-    
     h1 {
         padding-top: 4rem;
         font-size: 6rem;
         margin-bottom: 3rem;
+        width: 1200px;
     }
 
     section {   
+        width: 1200px;
 
         p {
             font-size: 0.9rem;
