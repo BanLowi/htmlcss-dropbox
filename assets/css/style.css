@@ -95,22 +95,20 @@ header {
 
 .jumbo {
     background-color: var(--db-jumbo-bg);
+    
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
 
-    section {
+    section {   
 
-        h1 {
-            font-size: 3rem;
-        }
+        position: relative;
+        min-width: 50%;
 
         p {
             font-size: 0.9rem;
-            text-align: left;
-            position: relative;
-
-            img {
-                position: absolute;
-                top: 0
-            }
+            width: 330px;
         }
 
         button {
@@ -119,11 +117,27 @@ header {
             border: none;
             width: 10rem;
             padding: 0.5rem;
+            margin-top: 2rem;
         }
 
         a {
             color: var(--db-btn-anytime);
             font-size: 0.9rem;
+            margin-top: 2rem;
         }
+
+        i {
+            font-size: 2rem;
+            margin-top: 6rem;
+            margin-bottom: 1rem;
+        }
+
+         img {
+                position: absolute;
+                width: 50%;
+                min-width: 50%;
+                max-width: 50%;
+                right: 0;
+            }
     }
 }
