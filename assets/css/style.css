@@ -101,6 +101,7 @@ header {
 
 .jumbo {
     background-color: var(--db-jumbo-bg);
+    margin: 0;
     
     h1 {
         padding-top: 4rem;
@@ -123,7 +124,7 @@ header {
             border: none;
             width: 10rem;
             padding: 0.5rem;
-            margin: 2rem 0rem;
+            margin: 3rem 0rem;
         }
 
         a {
@@ -133,12 +134,12 @@ header {
 
         i {
             font-size: 2rem;
-            margin-top: 4rem;
+            margin-top: 6.5rem;
             margin-bottom: 1rem;
         }
 
         img {
-            width: 650px;
+            width: 850px;
             position: absolute;
             right: 0;
             top: 0;
