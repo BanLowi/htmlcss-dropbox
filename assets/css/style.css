@@ -185,51 +185,65 @@ header {
 .plans {
     padding-top: 10rem;
 
-    .col-3 {
-        width: 30%;
-
-        .top {
-            padding: 0.2rem 5rem;
-
-            p {}
+    .container {
+        
+        h2 {
+            font-size: 3rem;
         }
 
-        .bottom {
+        .selector {
+            margin: 3rem 0rem;
 
-            padding: 2rem 1rem;
-
-            .pricing {
-                line-height: 2rem;
-                margin-bottom: 2rem;
-                padding: 0.2rem;
+            #yearly {
+                margin-left: 2rem;
             }
+        }
 
-            p {
-                width: 80%;
+        .col-3 {
+            width: 30%;
+    
+            .top {
+                padding: 0.2rem 5rem;
+    
+                p {}
             }
-
-            button {
-                background-color: var(--db-btn);
-                color: var(--db-btn-text);
-                width: 100%;
-                padding: 0.8rem 0rem;
-                margin-top: 4rem;
-                margin-bottom: 2rem;
-                border: none;
-            }
-
-            hr {
-                width: 20%;
-                margin-top: 3rem;
-                margin-bottom: 3rem;
-            }
-
-            .plan-hl {
-
-                i {
-                    color: var(--db-check-highlight);
+    
+            .bottom {
+    
+                padding: 2rem 1rem;
+    
+                .pricing {
+                    line-height: 2rem;
+                    margin-bottom: 2rem;
+                    padding: 0.2rem;
                 }
-
+    
+                p {
+                    width: 80%;
+                }
+    
+                button {
+                    background-color: var(--db-btn);
+                    color: var(--db-btn-text);
+                    width: 100%;
+                    padding: 0.8rem 0rem;
+                    margin-top: 4rem;
+                    margin-bottom: 2rem;
+                    border: none;
+                }
+    
+                hr {
+                    width: 20%;
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                }
+    
+                .plan-hl {
+    
+                    i {
+                        color: var(--db-check-highlight);
+                    }
+                }
             }
         }
     }
