@@ -24,6 +24,11 @@ body {
     * {
         border: 1px dashed black;
     }
+
+    header {
+        background-color: lime;
+
+    }
 }
 
 /* container */
@@ -31,4 +36,29 @@ body {
 .container {
     width: 80%;
     margin: auto;
+}
+
+/* flex */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.c-align {
+    align-items: center;
+}
+
+/* header */
+
+header {
+    padding: 1rem;
+
+    a {
+        color: black;
+        margin-left: 1rem;
+    }
 }
