@@ -184,11 +184,34 @@ header {
 .plans {
 
     .col-3 {
-        
+        width: 30%;
+
         .top {
-            
             padding: 0.2rem 5rem;
+
             p {
+            }
+        }
+
+        .bottom {
+            
+            padding: 2rem 1rem;
+
+            .pricing{
+                line-height: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            i {
+                margin-bottom: 1rem;
+            }
+
+            button {
+                background-color: var(--db-btn);
+                color: var(--db-btn-text);
+                width: 100%;
+                padding: 0.8rem 0rem;
+                margin-top: 2rem;
             }
         }
 
