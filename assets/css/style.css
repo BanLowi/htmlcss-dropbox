@@ -29,9 +29,9 @@ body {
         background-color: lime;
     }
 
-    .jumbo {
+    /* .jumbo {
         display: none;
-    }
+    } */
 
     .sector {
         background-color: cyan;
@@ -58,6 +58,7 @@ body {
     --db-btn-text: white;
     --db-jumbo-bg: #b4d0e6;
     --db-btn-anytime: black;
+    --db-check-highlight: #0061fe;
 }
 
 /* layout */
@@ -182,6 +183,7 @@ header {
 /* plans */
 
 .plans {
+    padding-top: 10rem;
 
     .col-3 {
         width: 30%;
@@ -199,10 +201,11 @@ header {
             .pricing {
                 line-height: 2rem;
                 margin-bottom: 2rem;
+                padding: 0.2rem;
             }
 
-            i {
-                margin-bottom: 1rem;
+            p {
+                width: 80%;
             }
 
             button {
@@ -210,9 +213,24 @@ header {
                 color: var(--db-btn-text);
                 width: 100%;
                 padding: 0.8rem 0rem;
-                margin-top: 2rem;
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+                border: none;
+            }
+
+            hr {
+                width: 20%;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            .plan-hl {
+
+                i {
+                    color: var(--db-check-highlight);
+                }
+
             }
         }
-
     }
 }
