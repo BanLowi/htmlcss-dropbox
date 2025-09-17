@@ -27,7 +27,27 @@ body {
 
     header {
         background-color: lime;
+    }
 
+    .jumbo {
+        display: none;
+    }
+
+    .sector {
+        background-color: cyan;
+    }
+
+    .container {
+        background-color: red;
+        
+    }
+
+    .row {
+        background-color: chocolate;
+    }
+
+    .col-3 {
+        background-color: blueviolet;
     }
 }
 
@@ -43,12 +63,12 @@ body {
 /* layout */
 
 .container {
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
 .large {
-    width: 60%;
+    width: 70%;
 }
 
 .sector {
@@ -63,6 +83,7 @@ body {
 
 .col-3 {
     width: (100%/3);
+    margin: auto;
     padding: 1rem;
 }
 
