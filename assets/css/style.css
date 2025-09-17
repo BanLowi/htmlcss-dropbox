@@ -31,6 +31,13 @@ body {
     }
 }
 
+/* colors */
+
+:root {
+    --db-btn-begin: #0061fe;
+    --db-btn-begin-text: white;
+}
+
 /* container */
 
 .container {
@@ -60,5 +67,11 @@ header {
     a {
         color: black;
         margin-left: 1rem;
+    }
+
+    .begin {
+        background-color: var(--db-btn-begin);
+        color: var(--db-btn-begin-text);
+        padding: 0.4rem 1rem;
     }
 }
