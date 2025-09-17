@@ -48,7 +48,7 @@ body {
 }
 
 .large {
-    width: 80%;
+    width: 60%;
 }
 
 .sector {
@@ -74,6 +74,12 @@ body {
     flex-direction: column;
 }
 
+/* utilities */
+
+.relative {
+    position: relative;
+}
+
 /* header */
 
 header {
@@ -96,16 +102,16 @@ header {
 .jumbo {
     background-color: var(--db-jumbo-bg);
     
+
+    
     h1 {
         padding-top: 4rem;
-        font-size: 3rem;
+        font-size: 4rem;
         margin-bottom: 3rem;
+        width: 850px
     }
 
     section {   
-
-        position: relative;
-        min-width: 50%;
 
         p {
             font-size: 0.9rem;
@@ -118,27 +124,26 @@ header {
             border: none;
             width: 10rem;
             padding: 0.5rem;
-            margin-top: 2rem;
+            margin: 2rem 0rem;
         }
 
         a {
             color: var(--db-btn-anytime);
             font-size: 0.9rem;
-            margin-top: 2rem;
         }
 
         i {
             font-size: 2rem;
-            margin-top: 6rem;
+            margin-top: 4rem;
             margin-bottom: 1rem;
         }
 
-         img {
-                position: absolute;
-                width: 50%;
-                min-width: 50%;
-                max-width: 50%;
-                right: 0;
-            }
+        img {
+            width: 650px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
     }
+    
 }
