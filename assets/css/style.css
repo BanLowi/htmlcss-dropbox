@@ -40,7 +40,7 @@ body {
     --db-btn-anytime: black;
 }
 
-/* containers */
+/* layout */
 
 .container {
     width: 65%;
@@ -54,6 +54,16 @@ body {
 .sector {
     width: 100%;
     min-width: 1200px;
+}
+
+.row{
+    display: flex;
+    margin: -0.1rem;
+}
+
+.col-3 {
+    width: (100%/3);
+    padding: 1rem;
 }
 
 /* flex */
