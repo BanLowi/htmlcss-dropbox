@@ -34,15 +34,26 @@ body {
 /* colors */
 
 :root {
-    --db-btn-begin: #0061fe;
-    --db-btn-begin-text: white;
+    --db-btn: #0061fe;
+    --db-btn-text: white;
+    --db-jumbo-bg: #b4d0e6;
+    --db-btn-anytime: black;
 }
 
-/* container */
+/* containers */
 
 .container {
-    width: 80%;
+    width: 65%;
     margin: auto;
+}
+
+.large {
+    width: 80%;
+}
+
+.sector {
+    width: 100%;
+    min-width: 1200px;
 }
 
 /* flex */
@@ -59,6 +70,10 @@ body {
     align-items: center;
 }
 
+.column {
+    flex-direction: column;
+}
+
 /* header */
 
 header {
@@ -70,8 +85,39 @@ header {
     }
 
     .begin {
-        background-color: var(--db-btn-begin);
-        color: var(--db-btn-begin-text);
+        background-color: var(--db-btn);
+        color: var(--db-btn-text);
         padding: 0.4rem 1rem;
+    }
+}
+
+/* jumbotron */
+
+.jumbo {
+    background-color: var(--db-jumbo-bg);
+
+    section {
+
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        button {
+            background-color: var(--db-btn);
+            color: var(--db-btn-text);
+            border: none;
+            width: 10rem;
+            padding: 0.5rem;
+        }
+
+        a {
+            color: var(--db-btn-anytime);
+            font-size: 0.9rem;
+        }
     }
 }
