@@ -178,3 +178,19 @@ header {
     }
     
 }
+
+/* plans */
+
+.plans {
+
+    .col-3 {
+        
+        .top {
+            
+            padding: 0.2rem 5rem;
+            p {
+            }
+        }
+
+    }
+}
