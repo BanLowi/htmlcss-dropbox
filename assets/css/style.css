@@ -264,11 +264,14 @@ header {
     .top {
         padding: 0.2rem 5rem;
         text-align: center;
+        border: 1px solid rgb(161, 160, 160);
+        border-bottom: none;
 
     }
 
     .bottom {
         padding: 2rem 1rem;
+        border: 1px solid rgb(161, 160, 160);
 
         section {
             line-height: 2rem;
