@@ -117,6 +117,10 @@ body {
     position: relative;
 }
 
+.t-align {
+    text-align: center;
+}
+
 /* header */
 
 header {
@@ -196,12 +200,21 @@ header {
             font-size: 3rem;
         }
 
+        button {
+            height: 40px;
+            width: 240px;
+            background-color: var(--db-btn);
+            color: var(--db-btn-text);
+            border: none;
+            justify-content: center;
+        }
+
         .selector {
             padding-left: 2rem;
             margin: 3rem 0rem;
             border-style: 2px solid blue;
 
-            label:last-child{
+            label:last-child {
                 padding-left: 2.4rem
             }
 
@@ -214,57 +227,49 @@ header {
             /* custom style checkmark for selector */
 
             .checkmark {
-            box-sizing: border-box;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 25px;
-            width: 25px;
-            border: 3px solid #eee;
-            border-radius: 50%;
+                box-sizing: border-box;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 25px;
+                width: 25px;
+                border: 3px solid #eee;
+                border-radius: 50%;
             }
 
             .yearly {
                 left: 200px;
             }
 
-            &:hover input ~ .checkmark {
-            background-color: #ccc;
+            &:hover input~.checkmark {
+                background-color: #ccc;
             }
 
-            & input:checked ~ .checkmark {
-            background-color: #2196F3;
+            & input:checked~.checkmark {
+                background-color: #2196F3;
             }
 
             .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
+                content: "";
+                position: absolute;
+                display: none;
             }
 
-            & input:checked ~ .checkmark:after {
-            display: block;
+            & input:checked~.checkmark:after {
+                display: block;
             }
 
             & .checkmark:after {
-            top: 5px;
-            left: 5px;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background: white;
+                top: 5px;
+                left: 5px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background: white;
             }
         }
 
-        button {
-            height: 40px;
-            width: 240px;
-            background-color: var(--db-btn);
-            color: var(--db-btn-text);
-            border: none;
-            margin: auto;
-            justify-content: center;
-        }
+
 
         .col-3 {
             width: 30%;
@@ -323,36 +328,36 @@ header {
                 text-align: center;
                 border: 1px solid var(--db-plan-border);
                 border-bottom: none;
-        
+
             }
-        
+
             .bottom {
                 padding: 2rem 1rem;
                 border: 1px solid var(--db-plan-border);
-        
+
                 section {
                     line-height: 2rem;
                     margin-bottom: 2rem;
                     padding: 0.2rem;
-        
+
                 }
-        
+
                 p {
                     width: 80%;
                 }
-        
+
                 button {
                     margin-top: 0;
                 }
-        
+
                 hr {
                     width: 20%;
                     margin-top: 3rem;
                     margin-bottom: 3rem;
                 }
-        
+
                 .plan-hl {
-        
+
                     i {
                         color: var(--db-check-highlight);
                     }
