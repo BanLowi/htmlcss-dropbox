@@ -412,35 +412,35 @@ header {
 /* partner */
 
 .partner {
-        padding-top: 10rem;
+    padding-top: 10rem;
 
-        img {
-            width: 60%;
+    img {
+        width: 60%;
+    }
+
+    section {
+        width: 30%;
+        margin: 40px auto;
+
+        p {
+            font-size: 1rem;
+            margin-top: 2rem;
         }
 
-        section {
-            width: 30%;
-            margin: 40px auto;
-
-            p {
-                font-size: 1rem;
-                margin-top: 2rem;
-            }
-
-            button {
-                background-color: var(--db-btn-text);
-                padding: 0.5rem 1rem;
-                font-size: 1rem;
-                margin-top: 2rem;
-            }
+        button {
+            background-color: var(--db-btn-text);
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            margin-top: 2rem;
         }
     }
+}
 
 /* business */
 
 .business {
     padding-top: 10rem;
-    
+
     h2 {
         font-size: 3rem;
     }
