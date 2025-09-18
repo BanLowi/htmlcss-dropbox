@@ -417,4 +417,21 @@ header {
         img {
             width: 60%;
         }
+
+        section {
+            width: 30%;
+            margin: 40px auto;
+
+            p {
+                font-size: 1rem;
+                margin-top: 2rem;
+            }
+
+            button {
+                background-color: var(--db-btn-text);
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+                margin-top: 2rem;
+            }
+        }
     }
