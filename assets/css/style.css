@@ -76,6 +76,7 @@ body {
     }
 
     .business {
+        display: none;
         height: 750px;
         background-color: crimson;
         padding-top: 100px;
@@ -89,6 +90,19 @@ body {
     .teams {
         height: 750px;
         background-color: burlywood;
+
+        .container {
+            height: 580px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        section{
+            width: 60%;
+        }
     }
 }
 
@@ -453,3 +467,22 @@ header {
         margin-top: 1rem;
     }
 }
+
+/* teams */
+
+.teams {
+        padding-top: 10rem;
+
+        .container {
+            height: 580px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        section{
+            width: 60%;
+        }
+    }
