@@ -42,16 +42,44 @@ body {
 
     }
 
-    .row {
-        background-color: chocolate;
+    .plans {
+
+        .row {
+            background-color: chocolate;
+        }
+
+        .col-3 {
+            background-color: blueviolet;
+        }
+
+        .col-1 {
+            background-color: blueviolet;
+        }
     }
 
-    .col-3 {
-        background-color: blueviolet;
+    .partner {
+        height: 750px;
+        background-color: burlywood;
+
+        img {
+            width: 60%;
+        }
     }
 
-    .col-1 {
-        background-color: blueviolet;
+    .business {
+        height: 750px;
+        background-color: crimson;
+        padding-top: 100px;
+
+        .col-3 {
+            width: calc(100/3);
+            height: 300px;
+        }
+    }
+
+    .teams {
+        height: 750px;
+        background-color: burlywood;
     }
 }
 
@@ -109,6 +137,10 @@ body {
 
 .column {
     flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* utilities */
@@ -269,6 +301,11 @@ header {
             }
         }
 
+        p {
+            max-width: 80%;
+
+        }
+
 
 
         .col-3 {
@@ -289,10 +326,6 @@ header {
                     line-height: 2rem;
                     margin-bottom: 2rem;
                     padding: 0.2rem;
-                }
-
-                p {
-                    width: 80%;
                 }
 
                 button {
@@ -366,3 +399,13 @@ header {
         }
     }
 }
+
+/* partner */
+
+.partner {
+        padding-top: 10rem;
+
+        img {
+            width: 60%;
+        }
+    }
