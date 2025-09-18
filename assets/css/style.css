@@ -104,6 +104,24 @@ body {
             width: 60%;
         }
     }
+
+    footer {
+        background-color: black;
+        height: 570px;
+        color: var(--db-btn-text);
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        section {
+            width: calc(100%/5);
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
 }
 
 /* colors */
@@ -484,5 +502,27 @@ header {
 
         section{
             width: 60%;
+        }
+    }
+
+/* footer */
+
+footer {
+        background-color: black;
+        height: 570px;
+        color: var(--db-btn-text);
+        padding-top: 5rem;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        section {
+            width: calc(100%/5);
+        }
+
+        ul {
+            list-style: none;
+            line-height: 2rem;
         }
     }
