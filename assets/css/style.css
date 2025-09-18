@@ -211,6 +211,8 @@ header {
                 cursor: pointer;
             }
 
+            /* custom style checkmark for selector */
+
             .checkmark {
             box-sizing: border-box;
             position: absolute;
@@ -254,6 +256,15 @@ header {
             }
         }
 
+        button {
+            height: 40px;
+            width: 240px;
+            background-color: var(--db-btn);
+            color: var(--db-btn-text);
+            border: none;
+            margin: auto;
+            justify-content: center;
+        }
 
         .col-3 {
             width: 30%;
@@ -280,13 +291,8 @@ header {
                 }
 
                 button {
-                    background-color: var(--db-btn);
-                    color: var(--db-btn-text);
-                    width: 100%;
-                    padding: 0.8rem 0rem;
                     margin-top: 4rem;
                     margin-bottom: 2rem;
-                    border: none;
                 }
 
                 hr {
@@ -336,11 +342,7 @@ header {
                 }
         
                 button {
-                    background-color: var(--db-btn);
-                    color: var(--db-btn-text);
-                    margin-bottom: 12%;
-                    padding: 0rem 2rem;
-                    border: none;
+                    margin-top: 0;
                 }
         
                 hr {
