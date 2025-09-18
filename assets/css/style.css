@@ -435,3 +435,21 @@ header {
             }
         }
     }
+
+/* business */
+
+.business {
+    padding-top: 10rem;
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
