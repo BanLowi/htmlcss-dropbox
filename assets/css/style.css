@@ -82,10 +82,18 @@ body {
     margin: -0.1rem;
 }
 
+.col-1 {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+
 .col-3 {
     width: (100%/3);
     margin: auto;
     padding: 1rem;
+    
 }
 
 /* flex */
@@ -186,7 +194,7 @@ header {
     padding-top: 10rem;
 
     .container {
-        
+
         h2 {
             font-size: 3rem;
         }
@@ -201,27 +209,28 @@ header {
 
         .col-3 {
             width: 30%;
-    
+
             .top {
                 padding: 0.2rem 5rem;
-    
-                p {}
+                text-align: center;
+                border: 1px solid rgb(161, 160, 160);
+                border-bottom: none;
             }
-    
+
             .bottom {
-    
+                border: 1px solid rgb(161, 160, 160);
                 padding: 2rem 1rem;
-    
+
                 .pricing {
                     line-height: 2rem;
                     margin-bottom: 2rem;
                     padding: 0.2rem;
                 }
-    
+
                 p {
                     width: 80%;
                 }
-    
+
                 button {
                     background-color: var(--db-btn);
                     color: var(--db-btn-text);
@@ -231,19 +240,65 @@ header {
                     margin-bottom: 2rem;
                     border: none;
                 }
-    
+
                 hr {
                     width: 20%;
                     margin-top: 3rem;
                     margin-bottom: 3rem;
                 }
-    
+
                 .plan-hl {
-    
+
                     i {
                         color: var(--db-check-highlight);
                     }
                 }
+            }
+        }
+    }
+}
+
+.col-1 {
+    width: 80%;
+
+    .top {
+        padding: 0.2rem 5rem;
+        text-align: center;
+
+    }
+
+    .bottom {
+        padding: 2rem 1rem;
+
+        section {
+            line-height: 2rem;
+            margin-bottom: 2rem;
+            padding: 0.2rem;
+
+        }
+
+        p {
+            width: 80%;
+        }
+
+        button {
+            background-color: var(--db-btn);
+            color: var(--db-btn-text);
+            margin-bottom: 12%;
+            padding: 0rem 2rem;
+            border: none;
+        }
+
+        hr {
+            width: 20%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .plan-hl {
+
+            i {
+                color: var(--db-check-highlight);
             }
         }
     }
