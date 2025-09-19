@@ -216,12 +216,10 @@ header {
 .jumbo {
     background-color: var(--db-jumbo-bg);
     margin: auto;
-    min-height: 750px;
-    max-height: 750px;
 
     h1 {
         padding-top: 4rem;
-        font-size: 6rem;
+        font-size: 5rem;
         margin-bottom: 3rem;
         width: 1200px;
     }
@@ -248,7 +246,7 @@ header {
 
         i {
             font-size: 2rem;
-            margin-top: 6.5rem;
+            margin-top: 5.5rem;
             margin-bottom: 1rem;
         }
 
